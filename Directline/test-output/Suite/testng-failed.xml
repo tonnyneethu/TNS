@@ -5,10 +5,11 @@
     <classes>
       <class name="com.searchtest.Searchvehicle">
         <methods>
+          <include name="teardownMethod"/>
           <include name="teardown"/>
+          <include name="searchsuite"/>
           <include name="setup"/>
           <include name="vehicle"/>
-          <include name="searchsuit"/>
         </methods>
       </class> <!-- com.searchtest.Searchvehicle -->
     </classes>

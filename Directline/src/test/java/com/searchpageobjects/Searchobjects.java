@@ -8,6 +8,8 @@ public class Searchobjects {
 
 	WebDriver driver;
 
+	
+
 	public Searchobjects(WebDriver Ddriver) {
 		this.driver = Ddriver;
 
@@ -17,6 +19,8 @@ public class Searchobjects {
 	WebElement Vregno;
 	@FindBy(xpath = "//button[@name='btnfind']")
 	WebElement searchbtn;
+	@FindBy(xpath = "//div[@class='result']")
+	WebElement result;
 
 	public void searchvehicle(String Vehiclereg) {
 
@@ -34,6 +38,19 @@ public class Searchobjects {
 		} catch (InterruptedException e) {
 
 		}
-	}
+		String vehicleresult = result.getText();
+		
+		System.out.println("Vehicle Registration displayed:"+vehicleresult);
 
+		if (vehicleresult.contains(Vehiclereg))
+		{
+			System.out.println("Vehicle Registration Found");
+		}
+		else {
+			System.out.println("Vehicle Registration not Found");
+		}
+	}
 }
+
+		
+

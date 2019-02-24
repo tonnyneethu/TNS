@@ -16,7 +16,8 @@ public class Searchvehicle extends Searchbase {
 		logger.info("Start Application");
 		search.searchvehicle(searchexl.getStringData("Data", 0, 1));
 		logger.info("Vehicle Register Number Entered");
-		logger.pass("Search Vehicle Register Number Exist");
+		logger.pass("Vehicle Register Number displayed");
+		
 	}
 
 }

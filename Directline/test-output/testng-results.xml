@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14060" started-at="2019-01-31T22:28:57Z" finished-at="2019-01-31T22:29:11Z">
+  <suite name="Suite" duration-ms="13296" started-at="2019-02-24T13:20:39Z" finished-at="2019-02-24T13:20:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14060" started-at="2019-01-31T22:28:57Z" finished-at="2019-01-31T22:29:11Z">
+    <test name="Test" duration-ms="13296" started-at="2019-02-24T13:20:39Z" finished-at="2019-02-24T13:20:52Z">
       <class name="com.searchtest.Searchvehicle">
-        <test-method status="PASS" signature="searchsuite()[pri:0, instance:com.searchtest.Searchvehicle@1d057a39]" name="searchsuite" is-config="true" duration-ms="637" started-at="2019-01-31T22:28:57Z" finished-at="2019-01-31T22:28:57Z">
+        <test-method status="PASS" signature="searchsuite()[pri:0, instance:com.searchtest.Searchvehicle@1d057a39]" name="searchsuite" is-config="true" duration-ms="640" started-at="2019-02-24T13:20:38Z" finished-at="2019-02-24T13:20:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchsuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.searchtest.Searchvehicle@1d057a39]" name="setup" is-config="true" duration-ms="6324" started-at="2019-01-31T22:28:57Z" finished-at="2019-01-31T22:29:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.searchtest.Searchvehicle@1d057a39]" name="setup" is-config="true" duration-ms="5449" started-at="2019-02-24T13:20:39Z" finished-at="2019-02-24T13:20:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="vehicle()[pri:0, instance:com.searchtest.Searchvehicle@1d057a39]" name="vehicle" duration-ms="6301" started-at="2019-01-31T22:29:04Z" finished-at="2019-01-31T22:29:10Z">
+        <test-method status="PASS" signature="vehicle()[pri:0, instance:com.searchtest.Searchvehicle@1d057a39]" name="vehicle" duration-ms="6357" started-at="2019-02-24T13:20:44Z" finished-at="2019-02-24T13:20:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vehicle -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.searchtest.Searchvehicle@1d057a39]" name="teardownMethod" is-config="true" duration-ms="727" started-at="2019-01-31T22:29:10Z" finished-at="2019-01-31T22:29:11Z">
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.searchtest.Searchvehicle@1d057a39]" name="teardownMethod" is-config="true" duration-ms="696" started-at="2019-02-24T13:20:51Z" finished-at="2019-02-24T13:20:51Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.searchtest.Searchvehicle@1d057a39]" name="teardown" is-config="true" duration-ms="688" started-at="2019-01-31T22:29:11Z" finished-at="2019-01-31T22:29:11Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.searchtest.Searchvehicle@1d057a39]" name="teardown" is-config="true" duration-ms="780" started-at="2019-02-24T13:20:51Z" finished-at="2019-02-24T13:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
